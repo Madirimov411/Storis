@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+    <FrameLayout
+        android:layout_width="180dp"
+        android:layout_height="250dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            app:shapeAppearanceOverlay="@style/circle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_margin="15dp"
+            android:background="#FFFFFF"
+            android:padding=".2dp"
+            app:shapeAppearanceOverlay="@style/aylana"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="2dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="15dp"
+            android:background="@drawable/frem_back"
+            android:text="1"
+            android:gravity="center"
+            android:textColor="@color/white" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Mansurbek"
+            android:textColor="@color/white"
+            android:layout_margin="15dp"
+            android:textSize="16dp"
+            android:maxLines="2"/>
+    </FrameLayout>
+</LinearLayout>
