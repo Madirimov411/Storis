@@ -13,7 +13,8 @@
         android:layout_height="250dp">
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_storis"
+            android:src="@drawable/img_1"
+            android:id="@+id/iv_mystoris"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/black"
@@ -21,29 +22,18 @@
             app:shapeAppearanceOverlay="@style/circle" />
 
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_profile"
             android:layout_width="34dp"
             android:layout_height="34dp"
             android:layout_margin="15dp"
-            android:background="#FFFFFF"
-            android:padding=".2dp"
-            android:src="@drawable/ic_launcher_background"
-            app:shapeAppearanceOverlay="@style/aylana"
-            app:strokeColor="@color/purple_500"
-            app:strokeWidth="2dp" />
-
+            android:src="@drawable/plus"
+            android:background="@color/white"
+            android:padding="5dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="7dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/aylana"/>
         <TextView
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_margin="15dp"
-            android:background="@drawable/frem_back"
-            android:gravity="center"
-            android:text="1"
-            android:textColor="@color/white" />
-
-        <TextView
-            android:id="@+id/tv_name"
+            android:id="@+id/tv_fullname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
